@@ -26,3 +26,15 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+const styles = StyleSheet.create({
+  logoContainer: {
+    alignItems: 'center',
+    marginTop: 50,
+  },
+  logo: {
+    width: 200,
+    height: 80,
+    resizeMode: 'contain',
+  },
+});

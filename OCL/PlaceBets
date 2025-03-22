@@ -1,7 +1,7 @@
 /**
  * <p><strong>PlaceBetPage</strong> is responsible for letting students place bets on various sports.</p>
  *
- * <p>It handles selecting a sport, showing betting odds, confirming the selection,
+ * <p>It handles selecting a sport, showing the betting odds, confirming the selection,
  * and submitting the final bet for a student.</p>
  */
 public class PlaceBetPage {

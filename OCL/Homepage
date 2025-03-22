@@ -9,3 +9,5 @@ pre: not bet.oclIsUndefined() and not student.oclIsUndefined()
 
 post: getPoints(student) >= 0
 
+--self.getPoints(student) assumes a method that returns current points
+--We must ensure getPoints is valid in the class context and returns an integer

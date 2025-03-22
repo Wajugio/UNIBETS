@@ -1,0 +1,5 @@
+/**
+ * <p><strong>PlaceBetPage</strong> manages the betting interface where students can select sports and place bets.</p>
+ *
+ * <p>This class handles student point checks, displays odds, enables selection, and confirms bet placement.</p>
+ */

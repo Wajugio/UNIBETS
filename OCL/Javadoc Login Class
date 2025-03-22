@@ -1,1 +1,48 @@
+/**
+ * <p><strong>Login</strong> class handles user authentication and session control.</p>
+ *
+ * <p>This class verifies user credentials, manages login sessions, 
+ * and provides feedback for failed attempts.</p>
+ *
+ * <p><strong>Attributes:</strong></p>
+ * <ul>
+ *   <li><code>username</code>: Array of usernames</li>
+ *   <li><code>password</code>: Array of passwords</li>
+ *   <li><code>LogID</code>: Integer representing the login session ID</li>
+ * </ul>
+ */
+public class Login {
 
+    private String[] username;
+    private String[] password;
+    private int LogID;
+
+    /**
+     * <p> This will verify if the username and password are correct.</p>
+     *
+     * parameters username The input username as a string.
+     * parameters password The input password as a string.
+     * return <code>true</code> if credentials are valid; otherwise <code>false</code>.
+     */
+    public boolean verifyLogin(String username, String password) {
+        // Implementation here
+    }
+
+    /**
+     * <p>Checks if the Username/Password meet system requirements.</p>
+     */
+    public void checkCredentials() {
+        // Implementation here
+    }
+
+    /**
+     * <p>Stores the provided login information into session.</p>
+     *
+     * @param info The login info string.
+     */
+    public void storeLogID(String info) {
+        // Implementation here
+    }
+
+    // for more additional methods if/when we add
+}

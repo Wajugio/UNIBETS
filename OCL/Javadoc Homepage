@@ -9,8 +9,8 @@ public class HomePage {
     /**
      * <p>Alters a student's current bet to a new value.</p>
      *
-     * @param bet The new bet as a string.
-     * @param student The unique identifier for the student.
+     * parameter bet The new bet as a string.
+     * parameter student The unique identifier for the student.
      */
     public void alterBet(String bet, String student) {
         // Implementation here
@@ -33,5 +33,5 @@ public class HomePage {
         // Implementation here
     }
 
-    // Other methods like confirmLogout(), showProfileMenu(), etc.
+    // in the fututure we can put other methods like confirmLogout(), showProfileMenu(), etc.
 }

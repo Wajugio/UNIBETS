@@ -1,5 +1,61 @@
 /**
- * <p><strong>PlaceBetPage</strong> manages the betting interface where students can select sports and place bets.</p>
+ * <p><strong>PlaceBetPage</strong> is responsible for letting students place bets on various sports.</p>
  *
- * <p>This class handles student point checks, displays odds, enables selection, and confirms bet placement.</p>
+ * <p>It handles selecting a sport, showing betting odds, confirming the selection,
+ * and submitting the final bet for a student.</p>
  */
+public class PlaceBetPage {
+
+    /**
+     * <p>Returns the number of points currently available for the user.</p>
+     *
+     * parameter: points The current point balance.
+     * return The number of points the user has.
+     */
+    public int getPointsFromUser(int points) {
+        // Implementation
+    }
+
+    /**
+     * <p>Enables the option for the student to choose a sport to bet on.</p>
+     */
+    public void enableSelectionOfSport() {
+        // Implementation
+    }
+
+    /**
+     * <p>Stores the selected sport that the student wants to bet on.</p>
+     *
+     * parameter: sport The name of the sport chosen by the student.
+     */
+    public void sportSelected(String sport) {
+        // Implementation
+    }
+
+    /**
+     * <p>Displays the odds for the selected sport or event.</p>
+     */
+    public void showOdds() {
+        // Implementation
+    }
+
+    /**
+     * <p>Confirms the student's final betting choice and prepares it for submission.</p>
+     *
+     * parameter: selection The specific option or outcome the student picked.
+     * parameter: student The unique ID or name of the student placing the bet.
+     */
+    public void confirmFullBet(String selection, String student) {
+        // Implementation
+    }
+
+    /**
+     * <p>Submits the student's bet with the specified details.</p>
+     *
+     * @param bet The amount or description of the bet.
+     * @param student The student who is placing the bet.
+     */
+    public void placeBet(String bet, String student) {
+        // Implementation
+    }
+}

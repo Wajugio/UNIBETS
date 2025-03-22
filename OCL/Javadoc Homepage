@@ -1,1 +1,37 @@
+/**
+ * <p><strong>HomePage</strong> class controls the main student interface 
+ * after logging in to the system.</p>
+ *
+ * <p>This class handles navigation, bet management, reward display, and logout.</p>
+ */
+public class HomePage {
 
+    /**
+     * <p>Alters a student's current bet to a new value.</p>
+     *
+     * @param bet The new bet as a string.
+     * @param student The unique identifier for the student.
+     */
+    public void alterBet(String bet, String student) {
+        // Implementation here
+    }
+
+    /**
+     * <p>Logs the student out and ends the session.</p>
+     */
+    public void clickLogout() {
+        // Implementation here
+    }
+
+    /**
+     * <p>Displays the number of points available to the student.</p>
+     *
+     * @param student The student's unique ID.
+     * @return Number of available points.
+     */
+    public int getPoints(String student) {
+        // Implementation here
+    }
+
+    // Other methods like confirmLogout(), showProfileMenu(), etc.
+}

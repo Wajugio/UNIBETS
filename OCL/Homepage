@@ -1,1 +1,11 @@
+--invariants
+context HomePage
+inv HomePageExists: not homePage.oclIsUndefined()
+
+--pre/post conditions
+context HomePage::alterBet(bet: EString, student: EString)
+
+pre: not bet.oclIsUndefined() and not student.oclIsUndefined()
+
+post: getPoints(student) >= 0
 

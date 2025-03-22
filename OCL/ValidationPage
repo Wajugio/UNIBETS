@@ -1,0 +1,6 @@
+/**
+ * <p><strong>ValidationPage</strong> handles verifying and approving student-submitted documents.</p>
+ *
+ * <p>It allows a verifier to review uploaded documents, accept or update validation status, 
+ * and assign points for successful verification.</p>
+ */

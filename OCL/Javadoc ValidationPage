@@ -4,3 +4,45 @@
  * <p>It allows a verifier to review uploaded documents, accept or update validation status, 
  * and assign points for successful verification.</p>
  */
+public class ValidationPage {
+
+    /**
+     * <p>Displays the document that was submitted for verification.</p>
+     *
+     * @parame verifyDoc The file submitted by the student.
+     */
+    public void showDoc(File verifyDoc) {
+        // Used to load and display a file before validating it
+    }
+
+    /**
+     * <p>Approves a submitted form and awards points to the student.</p>
+     *
+     * @param formID The ID of the form being validated.
+     * @param pointsEarned The number of points given to the student.
+     * @param student The student receiving the points.
+     */
+    public void verificationAccept(int formID, int pointsEarned, String student) {
+        // Called when a validator accepts a document and rewards the student
+    }
+
+    /**
+     * <p>Updates the verification record with new information or revised points.</p>
+     *
+     * @param formID The ID of the form being updated.
+     * @param pointsEarned The updated points.
+     * @param student The student whose record is being updated.
+     */
+    public void updateVerification(int formID, int pointsEarned, String student) {
+        // Used if a previously submitted form needs changes or re-evaluation
+    }
+
+    /**
+     * <p>Shows the student's current point total after validation.</p>
+     *
+     * @param points The number of points earned.
+     */
+    public void showPoints(int points) {
+        // Just shows how many points the student now has
+    }
+}

@@ -8,8 +8,8 @@ context Login::verifyLogin(username: EString, password: EString) : Boolean
 
 pre: not username.oclIsUndefined() and not password.oclIsUndefined()
 --The inputs must be defined
---On the login we're assuming LogID is set to > 0 on success, if not 0
+
 post: 
   (result = true implies LogID > 0) and
   (result = false implies LogID = 0)
-
+--On the login we're assuming LogID is set to > 0 on success, if not 0

@@ -1,1 +1,14 @@
+--Invariants 
+context Login
+inv UsernameNotEmpty: not username->isEmpty()
+inv PasswordLengthValid: password->forAll(p | p.size() >= 8)
+
+--Pre/Post conditions for verify login
+context Login::verifyLogin(username: EString, password: EString) : Boolean
+
+pre: not username.oclIsUndefined() and not password.oclIsUndefined()
+
+post: 
+  (result = true implies LogID > 0) and
+  (result = false implies LogID = 0)
 

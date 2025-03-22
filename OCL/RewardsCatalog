@@ -1,1 +1,72 @@
+/**
+ * <p><strong>RewardsCatalog</strong> manages the list of rewards available to students.</p>
+ *
+ * <p>Students can browse, select, and redeem rewards using their earned points. 
+ * Admins can also manage the rewards list here.</p>
+ */
+public class RewardsCatalog {
+
+    /**
+     * <p>Selects a reward from the list by its index.</p>
+     *
+     * @param rewards The index of the reward selected.
+     */
+    public void SelectReward(int rewards) {
+        // Called when a student clicks on a specific reward
+    }
+
+    /**
+     * <p>Displays the details of a reward at the given index.</p>
+     *
+     * @param rewards The index of the reward to view.
+     */
+    public void view(int rewards) {
+        // Used to preview the selected reward before claiming it
+    }
+
+    /**
+     * <p>Confirms the reward claim and deducts the appropriate number of points.</p>
+     *
+     * @param reward The index of the reward.
+     * @param points The number of points required to claim it.
+     */
+    public void confirmClaim(int reward, int points) {
+        // Finalizes the transaction and removes points from the student’s total
+    }
+
+    /**
+     * <p>Triggers loading of all available rewards into the catalog.</p>
+     */
+    public void requestPopulationRewards() {
+        // Called during initialization or refresh of the rewards list
+    }
+
+    /**
+     * <p>Fills the rewards catalog with a provided list of reward items.</p>
+     *
+     * @param rewards A list of available reward names or objects.
+     */
+    public void populateRewards(List<String> rewards) {
+        // Loads new or updated reward data into the catalog
+    }
+
+    /**
+     * <p>Processes reward redemption for a student.</p>
+     *
+     * @param student The student redeeming the reward.
+     * @param reward The reward being redeemed.
+     */
+    public void redeemReward(String student, String reward) {
+        // Handles point deduction and records that the student redeemed the reward
+    }
+
+    /**
+     * <p>Displays the number of points available to the current user.</p>
+     *
+     * @param points The student’s current point balance.
+     */
+    public void showPoints(int points) {
+        // Used to show how many points a student has when browsing rewards
+    }
+}
 

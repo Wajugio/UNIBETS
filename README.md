@@ -5,3 +5,7 @@
 TODO: Replace with your team members
 
 
+To Run:
+open terminal clone git repo 
+pip install -r requirements.txt --user
+python3 app.py

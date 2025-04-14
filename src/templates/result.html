@@ -12,3 +12,22 @@
     <a href="/">Try another match</a>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNIBETS - Sports Betting</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>UNIBETS</h1>
+    <form method="POST">
+        <label>Team A:</label>
+        <input name="team_a" required><br>
+        <label>Team B:</label>
+        <input name="team_b" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

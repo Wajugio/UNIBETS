@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UNIBETS - Results</title>
+</head>
+<body>
+    <h1>Match Results</h1>
+    <p>{{ team_a }} vs {{ team_b }}</p>
+    <p>Favorite: {{ odds.favorite }}</p>
+    <p>Odds: {{ team_a }} - {{ odds.team_a_odds }}, {{ team_b }} - {{ odds.team_b_odds }}</p>
+    <p>Predicted Winner: {{ winner }} (Confidence: {{ confidence * 100 }}%)</p>
+    <a href="/">Try another match</a>
+</body>
+</html>

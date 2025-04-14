@@ -6,6 +6,9 @@ TODO: Replace with your team members
 
 
 To Run:
-open terminal clone git repo 
-pip install -r requirements.txt --user
-python3 app.py
+open terminal 
+clone git repo 
+cd UNIBETS/src
+run ls to confirm reqyurenebts.txt is there
+run pip install -r requirements.txt --user
+run python3 app.py
